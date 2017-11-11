@@ -71,7 +71,7 @@ public class JsonExample {
 
     }
 
-    //Created with the help of Casey who helped me understand the reading and writing
+    //Created with the help of a tutor who helped me understand the reading and writing
     //Process
     public static void createFile(JSONObject master, JSONArray array) {
         Scanner scanner = new Scanner(System.in);
@@ -96,17 +96,6 @@ public class JsonExample {
             e.printStackTrace();
         }
 
-	/*
-	//Happy path: You have to close the printwriter for it to write to the file otherwise it won't
-	try {
-		PrintWriter write = new PrintWriter(file);
-		write.print(master.toString());
-		write.close();
-	} catch (FileNotFoundException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}*/
-
 
         //pause the execution
         System.out.println("File created successfully, Hit Return to display");
@@ -116,7 +105,6 @@ public class JsonExample {
 
     private static void readFile(File file) {
         Scanner scanner;
-        //read the file
 
         //reads the file
         //reading the file not from the console anymore

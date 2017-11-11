@@ -27,7 +27,7 @@ public class HeaderInfo extends HttpServlet {
 
         out.println(
                 "<html>\n" +
-                        "<head><title>" + title + "</title></head>\n"+
+                        "<head><title>" + title + "</title></head> \n"+
                         "<body bgcolor=\"#f0f0f0\">\n" +
                         "<h1 align=\"center\">" + title + "</h1>\n" +
                         "<table width=\"100%\" border=\"2\" align=\"center\">\n" +

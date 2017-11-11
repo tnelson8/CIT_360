@@ -13,6 +13,14 @@ public class Student {
 	private String roll;
 	private String phone;
 
+	public Student() {}
+	public Student(String name, String degree, String roll, String phone) {
+		this.name = name;
+		this.degree = degree;
+		this.roll = roll;
+		this.phone = phone;
+	}
+	
 	@Id
 	public long getId() {
 		return id;
